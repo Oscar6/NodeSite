@@ -1,0 +1,79 @@
+{
+    "artist": [
+        {
+            "name": "Kendrick Lamar",
+            "profile": "Kendrick_Lamar.jpg",
+            "bio": "Kendrick Lamar Duckworth (born June 17, 1987) is an American rapper, songwriter, and record producer. He is regarded as one of the most skillful and successful hip hop artists of his generation, with various media outlets branding him the \"new king of hip hop\".",
+            "album_title": [
+                "Overly Dedicated",
+                "Section.80",
+                "good kid, m.A.A.d city",
+                "To Pimp A Butterfly",
+                "DAMN."
+            ],
+            "year": [
+                "2010",
+                "2011",
+                "2012",
+                "2015",
+                "2017"
+            ],
+            "artwork": [
+                "overlydedicated.jpg",
+                "section.jpg",
+                "goodkid.jpg",
+                "butterfly.jpg",
+                "damn.jpg"
+            ]
+        },
+        {
+            "name": "The Strokes",
+            "profile": "The_Strokes.jpg",
+            "bio": "The Strokes are an American rock band from New York City. Formed in 1998, the band is composed of singer Julian Casablancas, lead guitarist Nick Valensi, rhythm guitarist Albert Hammond Jr., bassist Nikolai Fraiture, and drummer Fabrizio Moretti. Following the conclusion of five-album deals with RCA and Rough Trade, the band has continued to release new music through Casablancas' Cult Records.",
+            "album_title": [
+                "Is This It",
+                "Room On Fire",
+                "First Impressions Of Earth",
+                "Angles",
+                "Comedown Machine"
+            ],
+            "year": [
+                "2001",
+                "2003",
+                "2006",
+                "2011",
+                "2013"
+            ],
+            "artwork": [
+                "isthisit.jpg",
+                "room.jpg",
+                "first.jpg",
+                "angles.jpg",
+                "comedown.jpg"
+            ]
+        },
+        {
+            "name": "PARTYNEXTDOOR",
+            "profile": "PARTYNEXTDOOR.jpg",
+            "bio": "Jahron Anthony Brathwaite (born July 3, 1993), known professionally as PartyNextDoor (stylized as PARTYNEXTDOOR), is a Canadian rapper, singer, songwriter and record producer.",
+            "album_title": [
+                "PARTYNEXTDOOR",
+                "PARTYNEXTDOOR TWO",
+                "PARTYNEXTDOOR 3 (P3)",
+                "Seven Days"
+            ],
+            "year": [
+                "2013",
+                "2014",
+                "2016",
+                "2017"
+            ],
+            "artwork": [
+                "ep.jpg",
+                "two.jpg",
+                "3.jpg",
+                "seven.jpg"
+            ]
+        }
+    ]
+}
