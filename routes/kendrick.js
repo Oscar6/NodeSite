@@ -8,28 +8,23 @@ var data = require('../data/data.json')
 
 router.get('/kendrick', (req, res)=>{
 
-    var artist1 = data.artist[0];
-    var html = "";
+    var artistData = data.artist[0];
+    var html;
 
-    artist1.forEach((item)=>{
-
-        html += `
+        html = `
             <li>
-                <h2>${item.name}</h2>
-                <img src='/profile/${item.profile}'>
-                <p>${item.bio}</p>
+                <h2>${artistData.name}</h2>
+                <img src='/profile/${artistData.profile}'>
+                <p>${artistData.bio}</p>
                 <h4>Albums</h4>
-                    <ul>${item.album_title[0]} <img src='/images/${item.artwork[0]}'></ul>
-                    <ul>${item.album_title[1]} <img src='/images/${item.artwork[1]}'></ul>
-                    <ul>${item.album_title[2]} <img src='/images/${item.artwork[2]}'></ul>
-                    <ul>${item.album_title[3]} <img src='/images/${item.artwork[3]}'></ul>
-                    <ul>${item.album_title[4]} <img src='/images/${item.artwork[4]}'></ul>
+                    <ul><i>${artistData.album_title[0]}</i> ${artistData.year[0]} <img src='/images/${artistData.artwork[0]}'></ul>
+                    <ul><i>${artistData.album_title[1]}</i> ${artistData.year[1]}<img src='/images/${artistData.artwork[1]}'></ul>
+                    <ul><i>${artistData.album_title[2]}</i> ${artistData.year[2]}<img src='/images/${artistData.artwork[2]}'></ul>
+                    <ul><i>${artistData.album_title[3]}</i> ${artistData.year[3]}<img src='/images/${artistData.artwork[3]}'></ul>
+                    <ul><i>${artistData.album_title[4]}</i> ${artistData.year[4]}<img src='/images/${artistData.artwork[4]}'></ul>
             </li>
         `
-        console.log()
-    })
-    console.log(html)
-    res.send(`<ul>${html}</ul>`);
+        res.send(`<ul>${html}</ul>`);
 })
 
 
