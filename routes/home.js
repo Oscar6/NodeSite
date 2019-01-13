@@ -24,8 +24,6 @@ router.get('/home/:artistID', (req, res)=>{
     var artistInfo = data.artist[req.params.artistID];
 
     res.render('home', {
-        // pageTitle: 'Heavy Rotation Artists',
-        // pageID: 'artistID',
         artistInfo: artistInfo
     });
 });
