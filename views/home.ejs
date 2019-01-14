@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title><%= pageTitle %></title>
 </head>
 <body>
-   
+
+        <div class="allArtists">
+            <% if (pageID == 'home') { %>
+                <% artistInfo.forEach((item, index)=>{ %>
+            <div class="row">
+                <div class="col-md-3">
+                    <h3><a href="home/<%= index %>"><%= item.name %></a></h3>
+                    <img class="profilePic" src="/assets/profile/<%= artistInfo.profile %>" width="300">
+                </div>
+            </div>
+                <% }) %>
+            <% } %>
+        </div>
+
 </body>
 </html>
